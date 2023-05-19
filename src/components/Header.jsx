@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const Header = () => {
   return (
-    <div className="flex justify-between  mx-2 max-w-6xl sm:mx-auto items-center">
+    <div className="flex justify-between  mx-2 max-w-6xl sm:mx-auto items-center py-6">
       <div className="flex">
         <Menus title="HOME" address="/" Icon={AiFillHome} />
         <Menus title="ABOUT" address="/about" Icon={BsFillInfoCircleFill} />
