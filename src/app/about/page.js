@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="max-w-6xl mx-auto space-y-4 py-6">
+    <div className="max-w-6xl mx-auto space-y-4 py-6 p-6">
       <h1 className="text- 2xl font-medium text-amber-600">About</h1>
       <p>
         IMDb is the world's most popular and authoritative source for
